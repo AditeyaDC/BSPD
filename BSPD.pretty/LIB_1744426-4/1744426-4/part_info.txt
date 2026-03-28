@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=1744426-4
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=1.3
+Released=2020-03-09 16:22:38
+Downloaded=2025-08-25 06:18:52
+3D=Y

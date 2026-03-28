@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1744426_4'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "1744426-4" (!) = "", "17444264", "Other", "571-1744426-4", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1744426-4?qs=IGPQaF7TU6toTieyWkjyEQ%3D%3D", "1744426-4", "https://www.arrow.com/en/products/1744426-4/te-connectivity?region=nac", "Headers & Wire Housings Header Housing Assy EP 2.5 RA, 4 Pos.", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1744426%7FD2%7Fpdf%7FEnglish%7FENG_CD_1744426_D2.pdf%7F1744426-4", "7.8 mm"
+END_PART
+
+END.

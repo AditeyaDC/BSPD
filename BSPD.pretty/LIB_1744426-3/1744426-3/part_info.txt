@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=1744426-3
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=2.5
+Released=2022-11-17 15:00:19
+Downloaded=2025-08-25 06:20:35
+3D=Y

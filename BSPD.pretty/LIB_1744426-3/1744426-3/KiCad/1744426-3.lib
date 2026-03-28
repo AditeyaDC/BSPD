@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1744426-3
+#/270888/1713213/2.50/3/2/Connector
+DEF 1744426-3 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1744426-3" 650 200 50 H V L CNN
+F2 "17444263" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1744426&DocType=Customer+Drawing&DocLang=English" 650 0 50 H I L CNN
+F4 "Header Housing Assy, EP 2.5 RA, 3 Pos." 650 -100 50 H I L CNN "Description"
+F5 "7.8" 650 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1744426-3" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-1744426-3" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1744426-3?qs=IGPQaF7TU6sEhFWrzjofqw%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "1744426-3" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/1744426-3/te-connectivity?region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

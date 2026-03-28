@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_270888"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-11-17-15:00:19)
+    (utime 2024-12-15-21:56:12)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "1744426-3")
+)
+
+
+(pinAssign "ECS_270888"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-11-17-15:00:19)
+    (utime 2024-12-15-21:56:12)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_270888")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "1744426-3")
+)
+
+
+(part "1744426-3"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-11-17-15:00:19)
+    (utime 2024-12-15-21:56:12)
+    (packageRef "1744426-3")
+    (pinAssignRef "ECS_270888")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "3") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Header Housing Assy, EP 2.5 RA, 3 Pos.")
+    (property "Manufacturer_Name" "TE Connectivity")
+    (property "Manufacturer_Part_Number" "1744426-3")
+    (property "Mouser_Part_Number" "571-1744426-3")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1744426-3?qs=IGPQaF7TU6sEhFWrzjofqw%3D%3D")
+    (property "Arrow_Part_Number" "1744426-3")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/1744426-3/te-connectivity?region=nac")
+    (property "Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1744426&DocType=Customer+Drawing&DocLang=English")
+    (property "compAreaTopHeight" 7.8)
+)
+
+

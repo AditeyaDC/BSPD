@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1744426_5'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "1744426-5" (!) = "", "17444265", "Other", "571-1744426-5", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1744426-5?qs=IGPQaF7TU6uIdpzZmqUmkg%3D%3D", "1744426-5", "https://www.arrow.com/en/products/1744426-5/te-connectivity?region=nac", "Body Features: Primary Product Color White | Configuration Features: PCB Mount Orientation Right Angle | Number of Positions 5 | Number of Rows 1 | Connector Contact Load Condition Fully Loaded | Contact Features: Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 80 MICIN | Contact Mating Area Plating Material Finish Bright | Contact Mating Area Plating Material Thickness 80 MICIN | Contact Current Rating (M", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=7-1773461-6EP2.5&DocType=Data%20Sheet&DocLang=English&PartCntxt=1744426-5&DocFormat=pdf", "7.8 mm"
+END_PART
+
+END.

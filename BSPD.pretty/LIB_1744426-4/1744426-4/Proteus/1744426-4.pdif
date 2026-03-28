@@ -1,0 +1,129 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "1744426-4"
+   (description "Headers & Wire Housings Header Housing Assy EP 2.5 RA, 4 Pos.")
+   (family "CON")
+   (package "17444264")
+   (attribute "Datasheet Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F1744426%7FD2%7Fpdf%7FEnglish%7FENG_CD_1744426_D2.pdf%7F1744426-4")
+   (attribute "Geometry.Height" "7.8mm")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "1744426-4")
+   (attribute "Mouser Part Number" "571-1744426-4")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1744426-4?qs=IGPQaF7TU6toTieyWkjyEQ%3D%3D")
+   (attribute "Arrow Part Number" "1744426-4")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/1744426-4/te-connectivity?region=nac")
+   (gate
+    (symbol "1744426-4")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+   )
+  )
+  (symbol "1744426-4"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "17444264"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 2.5 9.2)
+      (pt -10 9.2)
+      (pt -10 -3.4)
+      (pt 2.5 -3.4)
+      (pt 2.5 9.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 2.5 9.2)
+      (pt -10 9.2)
+      (pt -10 -3.4)
+      (pt 2.5 -3.4)
+      (pt 2.5 9.2))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 3.5 10.2)
+      (pt -11 10.2)
+      (pt -11 -5.05)
+      (pt 3.5 -5.05)
+      (pt 3.5 10.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0.1 -4)
+      (arc (pt 0.100 -4.000) (pt 0.100 -4.100) (pt -0.100 -3.900) (start 180.0) (sweep .0))
+      (pt -0.1 -4)
+      (arc (pt -0.100 -4.000) (pt 0.100 -4.100) (pt -0.100 -3.900) (start 180.0) (sweep 180.0))
+      (pt 0.1 -4))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt -2.500 0.000) (padstack 0))
+   (leg 3 (pt -5.000 0.000) (padstack 0))
+   (leg 4 (pt -7.500 0.000) (padstack 0))
+   (leg MH1 (pt -3.750 6.500) (padstack 5))
+   (padstack 0
+    (hole 1)
+    (plated true)
+    (pad (layer TCOP) (round 1.500))
+    (pad (layer INNER) (round 1.500))
+    (pad (layer BCOP) (round 1.500))
+   )
+   (padstack 5
+    (hole 3.51)
+    (plated false)
+    (pad (layer TCOP) (round 1.755))
+    (pad (layer INNER) (round 1.755))
+    (pad (layer BCOP) (round 1.755))
+   )
+   (model "1744426-4.stp"
+    (euler 90 0 180)
+    (offset -3.75 9.239999771118164 -0.10999999940395355)
+   )
+  )
+ )
+)

@@ -1,0 +1,132 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "1744426-5"
+   (description "Body Features: Primary Product Color White | Configuration Features: PCB Mount Orientation Right Angle | Number of Positions 5 | Number of Rows 1 | Connector Contact Load Condition Fully Loaded | Contact Features: Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 80 MICIN | Contact Mating Area Plating Material Finish Bright | Contact Mating Area Plating Material Thickness 80 MICIN | Contact Current Rating (M")
+   (family "CON")
+   (package "17444265")
+   (attribute "Datasheet Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=7-1773461-6EP2.5&DocType=Data%20Sheet&DocLang=English&PartCntxt=1744426-5&DocFormat=pdf")
+   (attribute "Geometry.Height" "7.8mm")
+   (attribute "Manufacturer_Name" "TE Connectivity")
+   (attribute "Manufacturer_Part_Number" "1744426-5")
+   (attribute "Mouser Part Number" "571-1744426-5")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1744426-5?qs=IGPQaF7TU6uIdpzZmqUmkg%3D%3D")
+   (attribute "Arrow Part Number" "1744426-5")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/1744426-5/te-connectivity?region=nac")
+   (gate
+    (symbol "1744426-5")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+    (pin "4" 4 PS)
+    (pin "5" 5 PS)
+   )
+  )
+  (symbol "1744426-5"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -500) (pt 200 -500) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "17444265"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -12.5 9.2)
+      (pt 2.5 9.2)
+      (pt 2.5 -3.4)
+      (pt -12.5 -3.4)
+      (pt -12.5 9.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -12.5 -3.4)
+      (pt 2.5 -3.4)
+      (pt 2.5 9.2)
+      (pt -12.5 9.2)
+      (pt -12.5 -3.4))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -13.5 10.2)
+      (pt 3.5 10.2)
+      (pt 3.5 -4.4)
+      (pt -13.5 -4.4)
+      (pt -13.5 10.2))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt -2.500 0.000) (padstack 0))
+   (leg 3 (pt -5.000 0.000) (padstack 0))
+   (leg 4 (pt -7.500 0.000) (padstack 0))
+   (leg 5 (pt -10.000 0.000) (padstack 0))
+   (leg MH1 (pt -5.000 6.500) (padstack 6))
+   (padstack 0
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (round 1.400))
+    (pad (layer INNER) (round 1.400))
+    (pad (layer BCOP) (round 1.400))
+   )
+   (padstack 1
+    (hole 0.9)
+    (plated true)
+    (pad (layer TCOP) (square 1.400))
+    (pad (layer INNER) (round 1.400))
+    (pad (layer BCOP) (square 1.400))
+   )
+   (padstack 6
+    (hole 3.64)
+    (plated false)
+    (pad (layer TCOP) (round 1.820))
+    (pad (layer INNER) (round 1.820))
+    (pad (layer BCOP) (round 1.820))
+   )
+   (model "1744426-5.stp"
+    (euler 90 0 180)
+    (offset 0 6.300000190734863 -0.05999999865889549)
+   )
+  )
+ )
+)

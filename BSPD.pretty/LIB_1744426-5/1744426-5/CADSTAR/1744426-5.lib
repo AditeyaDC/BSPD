@@ -1,0 +1,18 @@
+.1744426-5 :1 ;Body Features: Primary Product Color White | Configuration Features: PCB Mount Orientation Right Angle | Number of Positions 5 | Number of Rows 1 | Connector Contact Load Condition Fully Loaded | Contact Features: Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 80 MICIN | Contact Mating Area Plating Material Finish Bright | Contact Mating Area Plating Material Thickness 80 MICIN | Contact Current Rating (M
+"17444265"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5"
+*MXP 6
+*DFN 1744426-5
+~!Manufacturer_Name (TE Connectivity)
+~!Manufacturer_Part_Number (1744426-5)
+~!Mouser Part Number (571-1744426-5)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1744426-5?qs=IGPQaF7TU6uIdpzZmqUmkg%3D%3D)
+~!Arrow Part Number (1744426-5)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/1744426-5/te-connectivity?region=nac)
+~!Link Datasheet (https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=7-1773461-6EP2.5&DocType=Data%20Sheet&DocLang=English&PartCntxt=1744426-5&DocFormat=pdf)
+~!Height (7.8mm)
+~!3D_Model (1744426-5)
+"1744426-5"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1744426-5
+#/270890/1713213/2.50/5/2/Connector
+DEF 1744426-5 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1744426-5" 650 200 50 H V L CNN
+F2 "17444265" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=7-1773461-6EP2.5&DocType=Data%20Sheet&DocLang=English&PartCntxt=1744426-5&DocFormat=pdf" 650 0 50 H I L CNN
+F4 "Body Features: Primary Product Color White | Configuration Features: PCB Mount Orientation Right Angle | Number of Positions 5 | Number of Rows 1 | Connector Contact Load Condition Fully Loaded | Contact Features: Contact Mating Area Plating Material Tin | PCB Contact Termination Area Plating Material Tin | PCB Contact Termination Area Plating Material Thickness 80 MICIN | Contact Mating Area Plating Material Finish Bright | Contact Mating Area Plating Material Thickness 80 MICIN | Contact Current Rating (M" 650 -100 50 H I L CNN "Description"
+F5 "7.8" 650 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "1744426-5" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-1744426-5" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/1744426-5?qs=IGPQaF7TU6uIdpzZmqUmkg%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "1744426-5" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/1744426-5/te-connectivity?region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 -400 200 R 50 50 0 0 P
+X 2 2 0 -300 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -100 200 R 50 50 0 0 P
+X 5 5 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
